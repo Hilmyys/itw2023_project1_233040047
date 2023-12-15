@@ -369,6 +369,7 @@ span {
 
 .portfolio h2 {
     margin-bottom: 4rem;
+    padding: auto;
 }
 
 .portfolio .portfolio-container {
@@ -446,7 +447,7 @@ color: #333;
 
 .contact form {
     max-width: 70rem;
-    margin: 5rem auto;
+    margin: 1rem auto;
     text-align: center;
     margin-bottom: 3rem;
 }
@@ -454,10 +455,10 @@ color: #333;
 .contact form .input-box {
     display: flex;
     justify-content: space-between;
-    flex: wrap;
+    flex-wrap: wrap;
 }
 
-.contact form .input-box input , 
+.contact form .input-box input, 
 .contact form textarea {
     width: 100%;
     padding: 1.5rem;
@@ -465,7 +466,7 @@ color: #333;
     color: var(--text-color);
     background: var(--bg-color);
     border-radius: .8rem;
-    margin: .7rem 0;
+    margin: .9rem 0;
     box-shadow: 0.1rem .5rem var(--shadow-color);
 }
 
@@ -695,7 +696,7 @@ color: #333;
     }
 
     .home .profession-box .profession:nth-child(3) {
-        transform: rotate(-90deg) translate(-115px, -450px);
+        transform: rotate(90deg) translate(-115px, -450px);
     }
 
 
