@@ -41,7 +41,7 @@ let drakModeIcon = document.querySelector('#darkMode-icon');
 
 drakModeIcon.onclick = () => {
     drakModeIcon.classList.toggle('bx-sun');
-    document.body.classList.toggle('drak-mode');
+    document.body.classList.toggle('darkMode-icon');
 };
 
 /*========= scroll reveal ==========*/

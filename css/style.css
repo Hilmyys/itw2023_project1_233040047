@@ -19,7 +19,7 @@
     --shadow-color: rgba(0, 0, 0, .2);
 }
 
-.dark-mode {
+.darkMode-icon {
     --bg-color: #0b061f;
     --text-color: #fdfdfd;
     --shadow-color: rgba(0, 0, 0, .7);
@@ -97,13 +97,13 @@ body {
     color: var(--text-color);
 }
 
-#drakMode-icon {
+#darkMode-icon {
     font-size: 2.4rem;
     color: var(--white-color);
     cursor: pointer;
 }
 
-.header.sticky #drakMode-icon {
+.header.sticky #darkMode-icon {
     color: var(--text-color);
 }
 
