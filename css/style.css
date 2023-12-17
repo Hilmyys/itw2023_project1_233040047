@@ -768,7 +768,7 @@ color: #333;
         transform: rotate(0deg) translate(5px, -335px);
     }
     .home .profession-box .profession:nth-child(3) {
-        transform: rotate(0deg) translate(105px, -440px);
+        transform: rotate(90deg) translate(105px, -440px);
     }
 
     .contact form .input-box input {
