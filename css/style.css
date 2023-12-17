@@ -277,8 +277,8 @@ section {
 
 .home-img img {
     position: absolute;
-    bottom: -70px;
-    right: 0;
+    bottom: -50px;
+    right: -50px;
     width: 35%;
     pointer-events: none;
 }
@@ -697,7 +697,7 @@ color: #333;
     }
 
     .home .profession-box .profession:nth-child(3) {
-        transform: rotate(90deg) translate(-115px, -450px);
+        transform: rotate(90deg) translate(-75px, -420px);
     }
 
 
@@ -768,7 +768,7 @@ color: #333;
         transform: rotate(0deg) translate(5px, -335px);
     }
     .home .profession-box .profession:nth-child(3) {
-        transform: rotate(90deg) translate(105px, -440px);
+        transform: rotate(90deg) translate(-75px, -400px);
     }
 
     .contact form .input-box input {
