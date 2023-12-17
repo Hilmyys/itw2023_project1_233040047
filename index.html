@@ -158,17 +158,17 @@
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me!</span></h2>
 
-        <form action="#">
+        <form name="contact from">
             <div class="input-box">
-                <input type="text" placeholder="Full Name">
-                <input type="email" placeholder="Email Address">
+                <input type="text" placeholder="Full Name" name="full name">
+                <input type="email" placeholder="Email Address" name="email address">
             </div>
             <div class="input-box">
-                <input type="number" placeholder="Mobile Number">
-                <input type="text" placeholder="Email subject">
+                <input type="number" placeholder="Mobile Number" name="mobile number">
+                <input type="text" placeholder="Email subject" name="email subject">
             </div>
-            <textarea name="" id="" cols="30" placeholder="Your Message"></textarea>
-            <input type="submit" value="Send Message" class="btn">
+            <textarea id="" cols="30" placeholder="Your Message" name="your message"></textarea>
+            <button type="submit" value="Send Message" class="btn">Send Message</button>
         </form>
     </section>
 
@@ -188,5 +188,18 @@
 
     <!-- custom js -->
     <script src="js/script.js"></script>
+
+    <!-- google sheet -->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwEV24noOuTCX2V0Ue-I3bqJ6XkRRoKrfGtrS_9vg5ie0ldhTC4HwBLagdGZbPmJJjYyQ/exec'
+        const form = document.forms['contact from'];
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault();
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message));
+        })
+      </script>
 </body>
 </html>
