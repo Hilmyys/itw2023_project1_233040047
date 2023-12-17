@@ -19,7 +19,7 @@
     --shadow-color: rgba(0, 0, 0, .2);
 }
 
-.darkMode-icon {
+.darkMode {
     --bg-color: #0b061f;
     --text-color: #fdfdfd;
     --shadow-color: rgba(0, 0, 0, .7);
